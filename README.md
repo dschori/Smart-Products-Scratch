@@ -8,7 +8,7 @@
 4. Check which GPU's are in use: http://sx-el-121920.hsr.ch:8080/ 
 5. Start a TLT-Docker container by:
 ```
-docker run --rm -ti -e NVIDIA_VISIBLE_DEVICES=<NUMBER OF A GPU WHICH IS NOT IN USE> -p 8881:8888 -v /mnt/data/smart-products:/workspace/tlt-experiments nvcr.io/nvidia/tlt-streamanalytics:v2.0_py3 /bin/bash
+docker run --rm -ti -e NVIDIA_VISIBLE_DEVICES=<NUMBER OF A GPU WHICH IS NOT IN USE> -p 8881:8888 -v /mnt/data/smartproducts:/workspace/tlt-experiments nvcr.io/nvidia/tlt-streamanalytics:v2.0_py3 /bin/bash
 ```
 6. If you get an error for the port mapping: That means this port is probably already in use, take another port 8880 - 8899
 7. Start a Jupyter Server inside the Docker Container:
