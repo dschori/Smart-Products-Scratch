@@ -20,7 +20,7 @@ jupyter notebook --ip 0.0.0.0 --port 8888 --allow-root
   ```
 http://sx-el-121920.hsr.ch:<the port you mapped>/?<your token>
 ```
-10. Inside Jupyter, go to: /tlt-experiments/DO_NOT_DELETE
+10. Inside Jupyter, go to (in a web-browser): /tlt-experiments/DO_NOT_DELETE
 11. Make a copy of the Notebook or Download it from: https://github.com/dschori/Smart-Products-Scratch/tree/main/TLT
 12. Open the Notebook
 13. Click: Kernel>Restart&Clear Output
