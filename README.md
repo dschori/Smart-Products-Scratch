@@ -27,6 +27,8 @@ http://sx-el-121920.hsr.ch:<the port you mapped>/?<your token>
 14. Click through the Notebook
 
 ## Camera Calibration:
+**Don't do this on the DGX-2 Machine!**  
+**Use your Jetson Nano**  
 1. Run: python3 aqcuire_images.py to aquire images from a chessboard
 2. Run: python3 calibrate_camera.py  with the taken images to generate the calibration files
 
