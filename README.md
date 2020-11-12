@@ -22,7 +22,7 @@ http://sx-el-121920.hsr.ch:<the port you mapped>/?<your token>
 ```
 10. Inside Jupyter, go to: /tlt-experiments/DO_NOT_DELETE
 11. Make a copy of the Notebook or Download it from: https://github.com/dschori/Smart-Products-Scratch/tree/main/TLT  
-(The SmartProducts.zip File has to be at: **/mnt/data/smartproducts/SmartProducts.zip** and the Notebook has to be at: **/mnt/data/DO_NOT_DELETE/your_notebook.ipynb**)
+(The SmartProducts.zip File has to be at: **/mnt/data/smartproducts/SmartProducts.zip** and the Notebook has to be at: **/mnt/data/DO_NOT_DELETE/your_notebook.ipynb** the specs- file has to be at: **/mnt/data/DO_NOT_DELETE/specs/**)
 12. Open the Notebook
 13. Click: Kernel>Restart&Clear Output
 14. Click through the Notebook
